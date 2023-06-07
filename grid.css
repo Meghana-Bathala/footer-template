@@ -1,0 +1,57 @@
+/* grid system is used to create 2 dimensional layouts in the web*/
+/*grid parent properties : grid-template-column---- grid-template-row----grid-template-area----justify-items----align-items----place-items----align-content----
+                            grid-row-gap---grid-col-gap---grid-gap*/
+*{
+    padding:5px;
+    margin:5px;
+    box-sizing: border-box;
+}
+.parent{
+    width:500px;
+    height:60vh;
+    outline:2px solid red;
+    display:grid;
+    /*grid template column/
+    grid-template-columns:20px 20px 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 20px auto 20%;
+    grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 30px 30px 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 30px repeat(3,1fr) 2fr;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    justify-items:end;
+    align-items:center;
+    place-items:center;
+    justify-content:end;
+}
+::selection{
+    background-color:green;
+    color: rgb(255, 127, 127);
+}
+.child{
+    background-color:gold;
+    outline:1px solid black;
+    
+    border-radius:2px;
+    text-align:center;
+
+}
+.first{
+    grid-area:header;
+}
+.second{
+    grid-area:main;
+}
+.third{
+    grid-area:footer;
+    align-self:center;
+    justify-self: center;
+    place-self: center;
+    place-self:end center
+}

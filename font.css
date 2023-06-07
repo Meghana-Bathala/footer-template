@@ -1,0 +1,39 @@
+/*font-family*/
+/*font-family is of two types they are generic-ff 2.ff*/
+/*generic fontfamily is divided into 5 types-serif 2.sans-serif 3.monospace fonts 4.cursive fonts 5.fantacy fonts*/
+/*google fonts*/
+/*import the url*/
+
+/*<style>{
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+}
+</style>*/
+
+
+body{
+    /*seif ff-has a small strokes at the edges*/
+    /*font-family: 'Times New Roman',times, serif;*/
+    /* san-sereif fonts we don't have the strokes at the edges*/
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    /*monospace fonts have equal width for all the letters/fonts*/
+    /*font-family: 'Courier New', Courier, monospace;*/
+    /*cursive fonts looks cursive handwriting*/
+    /*font-family: 'Cedarville Cursive', cursive;
+    font-family: copperplate,fantasy;*/
+    /*-------font-style--italic,normal,oblique-----*/
+    /*font-style: italic;*/
+    /*font-style: oblique;*/
+    /*-----font-size----*/
+    /*font-size: 42px;*/
+    /*font-size: medium;*/
+
+    /*-----font-variant-normal small-case----*/
+    /*small-caps converts small caps to upper caps*/
+    /*font-variant: small-caps;*/
+
+    /*font-weight*/
+    /*font-weight: bolder;*/
+    /*font-weight: 700;*/
+    /*---shorthand property----*/
+    font:italic small-caps bolder 42px Tahoma, sans-serif
+}

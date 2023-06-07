@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:content-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        .container{
+            width:200px;
+            height:50px;
+            padding: 3px;
+            /* box-shadow:horizontal  offset  vertical offse blurradius spreaddistance spread color*/
+            border:2px double green;
+            box-shadow: 2px 2px 4px 0px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+</body>
+</html>

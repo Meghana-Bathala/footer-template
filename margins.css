@@ -1,0 +1,22 @@
+/*margin property is applied outside of the border*/
+/* margin properties - margin-right margin-top margin-left margin-bottom margin*/
+div{
+    border:2px solid red;
+    width: 200px;
+    height:100px;
+}
+/*total width:width+(left+right padding)+left+right+margin+ border right+border left*/
+h1{
+    /*margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;*/
+    /*----shorthand property---*/
+    margin:5px;
+    margin: auto;
+}
+h1{
+    margin: 5px 2px 5px 2px;/*top right bottom left*/
+    margin: 3px 5px 5px;/*top right-left bottom*/
+    margin: 3px 3px;/*top-bottom right-left*/
+}

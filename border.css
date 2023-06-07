@@ -1,0 +1,64 @@
+/*border style property is used to add different style to the border*/
+#dotted{
+    border-style: dotted;
+    border-color: brown;
+    border-width: 4px;
+}
+#dashed{
+    border-style: dashed;
+    border-color: blue;
+    border-width: 4px;
+}
+#double{
+    border-style: double;
+    border-color: green;
+    border-width: 5px;
+}
+#solid{
+    border-style: solid;
+    border-color: purple;
+}
+#ridge{
+    border-style: ridge;
+    border-color: rgb(rgb(238, 236, 236), rgb(3, 3, 3), blue);
+}
+#grooved{
+    border-style: groove;
+}
+#inset{
+    border-style: inset;
+}
+#outset{
+    border-style:outset
+}
+#hidden{
+    border-style: hidden;
+}
+#none{
+    border-style: none;
+}
+p{
+   /* border-style: solid dotted dashed double;
+    border-style: solid dotted double;
+    border-style:dotted double;
+    border-bottom-style:dashed;
+    border-top-style: double;
+    border-right-style: outset;
+    border-left-style: inset;
+    border-color: brown;*/
+
+}
+/*h4{
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 4px;
+}*/
+/*----shorthand property----*/
+h4{
+    border:2px dotted red;
+}
+button{
+    border:none;
+    outline: none;
+    border-bottom: 2px solid red;
+}

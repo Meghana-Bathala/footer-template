@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--internal css-->
+    <style>
+    #id1{
+        color:red;
+        text-align:center;
+    }
+    #id2{
+        background-color: bisque;
+    }
+    /*class selector*/
+    .class1{
+        color:red;
+        background-color: aqua;
+        text-align: center;
+    }
+    /*tag selectors*/
+    div{
+        color:aqua;
+        text-align:aqua;
+        width:100px;
+        height:200px;
+        border:2px red;
+    }
+    /*attribute selector*/
+    input[type=text]{
+        background-color: brown;
+    }
+    </style>
+    <!--external css-->
+    <link ref="style sheet" href="selectors.css">
+<body>
+    <!--selectors are used to select the particular tag or element to select-->
+    <!--id selector-->
+    <!--id selector is used to select the unique elements-->
+    <h1 id="id1">hello developer</h1>
+    <h1 id="id2">frontend developers</h1>
+    <!--class selector is used to select and style group of elements -->
+    <h1 class="class1">developers</h1>
+    <h1 class="class1">developers</h1>
+    <h1 class="class1">developers</h1>
+    <h1 class="class1">developers</h1>
+    <!--tag selectors-->
+    <!--tag selectors are used to select by tag name-->
+    <div>
+        <p>frontend</p>
+    </div>
+    <div>
+        <img src="">
+    </div>
+</body>
+
+</html>

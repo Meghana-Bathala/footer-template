@@ -1,0 +1,36 @@
+/*----text-color--applies color to the text*/
+body{
+    color: aqua;
+    /*----text alignment---*/
+    /*text alignment aligns the text in browser based on the values given*/
+    /*text-align: center;*/
+    /*text-align: justify;*/
+    /*----text decoration--line style thickness color--*/
+    /*text-decoration:underline-----shorthand property*/
+    /*text-decoration: dotted;*/
+    /*text-decoration: double;*/
+    /*text-decoration-style: wavy; //underline overline*/
+   /* text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 5px;*/
+    /*----short hand properties----*/
+   /* text-decoration:overline red 5px dotted;*/
+
+   /*-----text-transformation-uppercase lowercase capitalize------*/
+  /* text-transform: uppercase;*/
+  /*text-transform: capitalize;*/
+  /*text-transform: lowercase;*/
+
+  /*-----text-spacing-5 text-indent letter-spacing line height word-spacing---*/
+  /*text-indent: 30px;
+  /*letter-spacing: 15px;*/
+ /* word-spacing: 5px;
+  white-space: nowrap;
+  line-height: 0.7;*/
+
+  /*---text shadow property----*/
+  text-shadow: 5px 5px;
+  text-shadow: 5px 5px red;
+  text-shadow: 5px 5px 2px red; /* 3rd value is about the blur property of shadow*/
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background properties in css</title>
+    <style>
+        /*background color*/
+        body{
+            /*default colors*/
+           /* background-color: aqua;
+            /*rgb&rgba Hex HSL&hsla*/
+           /* background-color: rgb(255, 0,0);
+            background-color: hsla(60, 50%, 50%, 0.6);
+            /*background-image*/
+            /*background-image: url('./images/download.jpg');*/
+            /*background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F674010%2Fpexels-photo-674010.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&tbnid=fY9reP86COngJM&vet=12ahUKEwjT5raskZ__AhW8j9gFHfSyDWcQMygCegUIARDjAQ..i&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbeautiful%2F&docid=B51x0PBR9KNzvM&w=500&h=667&q=images&ved=2ahUKEwjT5raskZ__AhW8j9gFHfSyDWcQMygCegUIARDjAQ') ;
+            /*background repeat*/
+            /*default value for background repest is repeat*/
+            /*background-repeat: no-repeat;
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;*/
+            /*.....linear gradient colors.......*/
+            /*background-image: linear-gradient(direction/degree,color1,color2,color3..);*/
+           /* background-image: linear-gradient(to bottom right,red,yellow,green,orange);
+            background-image: repeating-linear-gradient(to right,red,yellow,green,orange);
+            background-image: repeating-linear-gradient(to right,red,yellow 50%,green,orange);*/
+           /* background-image: radial-gradient(red,yellow,green);
+            background-image: radial-gradient(circle,red,yellow,green);
+            background-image: radial-gradient(red 50%,yellow 20%,green);
+            background-image: radial-gradient(closest-side at 50% 50%,red,yellow,green);*/
+           /* background-image: conic-gradient(red,green,yellow);
+            background-image: conic-gradient(red 45deg,green 60deg,yellow);
+            /*background attachment-fixed scroll*/
+           /* background-image: url('./images/download.jpg');
+            background-repeat: no-repeat;
+            /*background-attachment:fixed;*/
+            /*background-attachment: scroll;*/
+            /*...background position...*/
+            background-image: url('./images/download.jpg');
+            background-image: no-repeat;
+            background-position: right top;
+
+            /*background size property*/
+
+
+
+
+    }
+    .container{
+        width: 200px;
+        height: 200px;
+        border: 2px solid red;
+        background-image: url('./images/download.jpg');
+        /*if the image width is less than the containersize when we apply the cover
+        going to occupy the container*/
+        /*if the img size is greater than the container(overflows) contains the container*/
+        /*background-size: cover;*/
+        background-size: 30px;
+        background-size: auto auto;/*first value refers width and second value refers the height*/
+        background-size: 200px 200px;
+        background-size: 5px auto contain;
+    }
+    body{
+        /*shorthand properties*/
+    }
+    </style>
+</head>
+<body >
+    <!--background properties are used to add background styles or effects through the following properties-->
+    <!--1.background color 2.background image 3.background attachment 4.background repeat 5.background position 6.background size 7.background-->
+    <div class="container">
+
+    </div>
+</body>
+</html>
